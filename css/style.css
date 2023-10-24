@@ -1,0 +1,459 @@
+body{
+    background-color: black;
+    overflow-x: hidden;   
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(230, 215, 6);
+}
+.nav{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.hme a{
+    margin-left: 5%;
+}
+.hme{
+    width: 50vw;
+    text-align: center;
+}
+#bot{
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 2px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.lesdhome{
+    padding: 7%;
+}
+.titlehome{
+    color: rgb(226, 149, 48);
+    font-size: xx-large;
+    
+}
+.texthome{
+    color: aliceblue;
+    font-size:1.8rem;
+    text-align: left;
+    margin-left: 50px;
+}
+.pichm{
+    margin-top: 5%;
+}
+.bot2{
+    color: aliceblue;
+    position: absolute;
+    border: 1px solid white;
+    padding: 2px 2px;
+    border-radius: 5px;
+    margin-left: 30%;  
+}
+.testimonil h1{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+.testimonil{
+    background-color: aliceblue;
+    padding: 8%;
+}
+.testimonil p{
+    color: black;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border: 3px solid rgb(181, 166, 166);
+    border-radius:20px;
+    width: 30%;
+}
+.picnej img {
+    display: block;
+}
+.cart1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border: 3px solid rgb(181, 166, 166);
+    background-color: rgb(241, 129, 213);
+    border-radius:20px;
+    width: 30%;
+
+}
+
+.picnej1 img {
+    display: block;
+}
+.cart2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border: 3px solid rgb(181, 166, 166);
+    background-color: rgb(129, 234, 241);
+    border-radius:20px;
+    width: 30%;
+}
+.picnej2 img {
+    display: block;
+}
+.lescarts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.qanda{
+    background-image: url(ab2fbad7879525a09d2cca3bd33f80ed.jpg);
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    padding: 10%;
+}
+.q1{
+    color: rgb(5, 74, 234);
+    align-items: center;
+    background-color: aliceblue;
+    font-size: x-large;
+    text-align: left;
+    border: 0.2px solid white;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    display: flex;   
+}
+.sahm {
+    margin-left: 120px; 
+}
+.jdeq1{
+    color: rgb(7, 171, 189);
+    align-items: center;
+    background-color: aliceblue;
+    font-size: large;
+    text-align: left;
+    border: 0.2px solid rgb(230, 215, 6);
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+    display: none;
+}
+.contact{
+    background-color: aliceblue;
+}
+.contact1{
+    display: flex;
+    background-color: aliceblue;
+    display: flex;
+}
+.contact h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.contact h2{
+    color: rgb(225, 211, 13);
+    padding-left: 50px;
+}
+.contact h3{
+    padding-left: 100px;
+}
+.map{
+    color: rgb(225, 211, 13);
+    padding-left: 50px;
+}
+.map h3{
+         padding-left: 100px;
+         color: #333;
+
+}
+.harakat{
+    margin-left: 25%;    
+    width: 50%;
+    justify-content: space-between;
+}
+.harakat svg{
+    height: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.copyr-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright svg{
+    position: absolute;
+    left: 43%;
+}
+.cata{
+    background-color: aliceblue;
+    margin-top: 2%;
+}
+.botonat a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.botonat{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    
+}
+.pants{
+    border: 11px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.sneks{
+    border: 11px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.shirts{
+    border: 11px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.pantspage{
+    padding:  5%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.inscri{
+    background-image: url(logicback.png);
+    background-size: cover;
+    width: 100%;
+}
+.titins{
+    margin:1%;
+    padding: 10%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+.les2{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0;
+}
+.les2 .email ,.passw{
+ color: white;
+ font-weight: 900;
+   display: flex;
+   flex-direction: column;
+
+   
+}
+
+.les2 input{
+    margin: 10px 0;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.log{
+    
+    display: flex;
+    
+    justify-content: center;
+    border: 14px solid rgb(190 99 20);
+    width: 10%;
+    margin-left: 55%;
+    background-color: rgb(190 99 20);
+    border-radius: 20px;
+
+  
+}
+.sign{
+    display: flex;
+    
+    justify-content: center;
+    border: 14px solid rgb(190 99 20);
+    width: 10%;
+    margin-left: 40%;
+    background-color: rgb(190 99 20);
+    border-radius: 20px;
+}
+.sign a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.log a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.signpage{
+    background-image: url(jcole.jpg);
+
+}
+
+
+.accordion{
+     /* max-width: 10000px;  */
+    width: 50%;
+    margin: 25%;    
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:  0 0 4px rgba(0,0,0,0.2);
+} 
+.accordion .accordion-content{
+    margin: 5px 0;
+    border-radius: 4px;
+    background: #fff5d2;
+    border: 1px solid #FFD6B3;
+    overflow: hidden;
+}
+.accordion-content:nth-child(2){
+    background-color: #fff5d2;
+    border-color: #CCEEFF;
+}
+.accordion-content:nth-child(3){
+    background-color: #fff5d2;
+    border-color: #FFCCD6;
+}
+.accordion-content:nth-child(4){
+    background-color: #fff5d2;
+    border-color: #CCCCFF;
+}
+.accordion-content.open{
+    padding-bottom: 10px;
+}
+.accordion-content header{
+    display: flex;
+    min-height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s linear;
+}
+.accordion-content.open header{
+    min-height: 35px;
+}
+.accordion-content header .title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f78500;
+}
+.accordion-content header i{
+    font-size: 15px;
+    color: #333;
+}
+.accordion-content .description{
+    height: 0;
+    font-size: 20px;
+    color: #f78500;
+    font-weight: 400;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+}
+.qanda h1{
+    color: black;
+    font-size: 75px;
+}
+
+.linksof{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+@media (max-width: 900px) {
+    
+  }
+
+@media (max-width: 900px) {
+    button{
+        border: none;
+        border-radius:0px;
+        background-color: rgb(126, 126, 120);
+        width: 40px;
+        padding: 1%;
+        position: fixed;
+        top: 3%;
+        right: 10px;
+
+
+    }
+    button span{
+        display: block;
+        background-color: rgb(245, 245, 245);
+        width: 100%;
+        height: 3px;
+    }
+    button span:nth-child(2){
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    nav{
+      background-color: rgb(130, 139, 139);
+      width: 26%;
+      height:150px;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      position: fixed;
+      top: 5%;
+      right: 0%;
+      transform: translateX(100%);
+    }
+    nav a{
+        font-size: 13px;
+    }
+    nav.active {
+        transform: translateX(0%);
+    }
+    button.active {
+        transform: translateX(-15%);
+    }
+
+
+
+
+
+
+    .pantspage{
+        display: grid;  
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .titins h1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pichm{
+    display: none; 
+   }
+  
+    body {
+      font-size: 4px;
+    }
+    img {
+        width: 96%;
+        }
+      svg {
+        height: 5px;
+      }
+  }
+
+  
+  
