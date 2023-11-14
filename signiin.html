@@ -36,29 +36,28 @@
         <div class="les2">
             <div class="email">
                 <label for="name"> Name</label>
-                <input   type="email" placeholder="you'r complet name"> 
+                <input type="email" id="name" placeholder="your complete name"> 
             </div>
             <div class="email">
                 <label for="email"> Email</label>
-                <input  id="email" type="email" placeholder="fashion.ma@gmail.com"> 
+                <input id="email" type="email" placeholder="fashion.ma@gmail.com"> 
             </div>
             <div class="passw">
                 <label for="pass">Password</label>
-                <input  type="password" placeholder="************"> 
+                <input id="password" type="password" placeholder="************"> 
             </div>
            
             <div class="passw">
                 <label for="birth">Birthday</label>
-                <input id="pass" type="date" placeholder=""> 
+                <input id="birthday" type="date" placeholder=""> 
             </div>
         </div>
     
         <div class="sign">
-            <a href="index.html">Log In</a>
+            <a href="#" id="loginLink">Log In</a>
         </div>
         <div class="log">
             <a href="signiin.html">Sign In</a>
-            
         </div>
     <div>
         <section class="contact">
@@ -136,5 +135,25 @@
        
     </section>
     <script src="js/hai.js"></script>
+    <script>
+        document.getElementById('loginLink').addEventListener('click', function(event) {
+            // Validate the form fields using regex
+            var nameRegex = /^[a-zA-Z\s]+$/; // Modify the regex based on your name validation criteria
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            var passwordRegex = /^.{8,}$/; // At least 8 characters long, modify based on your criteria
+            var birthdayRegex = /^\d{4}-\d{2}-\d{2}$/; // YYYY-MM-DD format
+
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            var birthday = document.getElementById('birthday').value;
+
+            if (!name.match(nameRegex) || !email.match(emailRegex) || !password.match(passwordRegex) || !birthday.match(birthdayRegex)) {
+                // Display a message to the user 
+                alert('Please use logic information and use more then 8 shifers in password');
+                event.preventDefault(); // Prevent the link from navigating if validation fails
+            }
+        });
+    </script>
 </body>
 </html>

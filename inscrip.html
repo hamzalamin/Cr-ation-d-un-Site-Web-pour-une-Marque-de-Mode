@@ -141,5 +141,35 @@
 
     </section>
     <script src="js/hai.js"></script>
+    <!-- Add this script block to the end of your HTML file, before the closing </body> tag -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("pass");
+
+        // Regular expression for a valid email address
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Regular expression for a password with at least 8 characters
+        const passwordRegex = /^.{8,}$/;
+
+        document.querySelector('.sign a').addEventListener('click', function (event) {
+            // Check if the email is valid
+            if (!emailRegex.test(emailInput.value)) {
+                alert('Please enter a valid email address.');
+                event.preventDefault(); // Prevent the form from being submitted
+                return;
+            }
+
+            // Check if the password has at least 8 characters
+            if (!passwordRegex.test(passwordInput.value)) {
+                alert('Password must be at least 8 characters long.');
+                event.preventDefault(); // Prevent the form from being submitted
+            }
+        });
+    });
+</script>
+
+
 </body>
 </html>
